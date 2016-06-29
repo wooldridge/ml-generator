@@ -1,16 +1,16 @@
 var config = {};
 
-config.path = "/PATH/TO/ml-metadata/"; // include trailing "/"
+config.path = "/PATH/TO/ml-generator/"; // include trailing "/"
 
 config.host = "localhost";
 
 config.server = {
-  "port": 8565
+  "port": 8572
 };
 
 config.database = {
-  "name": "ml-geo-values",
-  "port": 8564
+  "name": "ml-generator",
+  "port": 8571
 };
 
 config.auth = {
